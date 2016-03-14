@@ -1,0 +1,29 @@
+{
+  "name": "gulp-prettyerror",
+  "version": "1.0.0",
+  "description": "Display Errors in a pretty way, without breaking watching tasks",
+  "keywords": [
+    "gulp",
+    "error",
+    "terminal",
+    "stream",
+    "pipe",
+    "watch",
+    "utility",
+    "plumber",
+    "task"
+  ],
+  "homepage": "https://github.com/AndiDittrich/gulp-prettyerror",
+  "bugs": "https://github.com/AndiDittrich/gulp-prettyerror/issues",
+  "repository": "AndiDittrich/gulp-prettyerror",
+  "files": [
+    "gulp-prettyerror.js"
+  ],
+  "main": "./gulp-prettyerror.js",
+  "author": "Andi Dittrich (http://andidittrich.de)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.7"
+  }
+}
