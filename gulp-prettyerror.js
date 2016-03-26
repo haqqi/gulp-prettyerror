@@ -24,9 +24,6 @@ var PrettyError = (function(customErrorFormat){
             _gutil.log('|- ' + _gutil.colors.bgRed('<<<'));
         });
     }
-
-    // terminate pipe processing
-    this.emit('end');
 });
 
 module.exports = PrettyError;
